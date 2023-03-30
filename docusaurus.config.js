@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Summarize",
+  tagline: "YouTube Video Summarizer",
+  favicon: "favicon.ico",
 
   // Set the production url of your site here
   url: "https://www.summarize.cc",
@@ -60,7 +60,7 @@ const config = {
         title: "Summarize",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
+          src: "android-chrome-192x192.png",
         },
         items: [
           {
@@ -70,32 +70,36 @@ const config = {
             label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          // {
-          //   href: "https://github.com/facebook/docusaurus",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
+          {
+            href: "https://app.summarize.cc",
+            label: "Go to App",
+            position: "right",
+          },
         ],
       },
       footer: {
-        style: "dark",
+        // style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Links",
             items: [
               {
                 label: "Getting Started",
-                to: "/docs/intro",
+                to: "/docs/getting-started",
+              },
+              {
+                label: "Welcome",
+                to: "/blog/welcome",
               },
             ],
           },
           {
             title: "Community",
             items: [
-              // {
-              //   label: "Discussions",
-              //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              // },
+              {
+                label: "Discussions",
+                href: "https://github.com/TimeSurgeLabs/summarizer-site/discussions",
+              },
               // {
               //   label: "Discord",
               //   href: "https://discordapp.com/invite/docusaurus",
@@ -120,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TimeSurge Labs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
