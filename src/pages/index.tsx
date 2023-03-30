@@ -109,12 +109,12 @@ const LandingPage: React.FC = () => {
             </p>
             <div className="hero-cta">
               <a
-                href="#get-started"
+                href="/docs/getting-started"
                 className="button button--primary margin-right--sm"
               >
                 Get Started
               </a>
-              <a href="#learn-more" className="button button--secondary">
+              <a href="/blog/welcome" className="button button--secondary">
                 Learn More
               </a>
             </div>
