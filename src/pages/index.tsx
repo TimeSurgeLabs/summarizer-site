@@ -8,8 +8,8 @@ import {
   IconDeviceDesktop,
   IconBrandChrome,
   IconBrandFirefox,
-  IconLockOpen,
-  IconLock,
+  IconUser,
+  IconRobot,
   IconDatabase,
 } from "@tabler/icons-react";
 // import HomepageFeatures from "@site/src/components/HomepageFeatures";
@@ -56,16 +56,10 @@ const LandingPage: React.FC = () => {
 
   const features = [
     {
-      title: "Powered by ChatGPT and GPT-3 AI",
+      title: "Discord and Telegram Bots",
       description:
-        "Experience cutting-edge AI technology that delivers accurate and concise video summaries.",
-      icon: <IconBrain size={48} />,
-    },
-    {
-      title: "Web App",
-      description:
-        "Access video summaries directly from our easy-to-use web app without installing any extensions.",
-      icon: <IconDeviceDesktop size={48} />,
+        "Bots to automatically summarize YouTube videos in your Discord Servers and Telegram Groups",
+      icon: <IconRobot size={48} />,
     },
     {
       title: "Extensions for Chrome and Firefox",
@@ -78,16 +72,22 @@ const LandingPage: React.FC = () => {
       ),
     },
     {
+      title: "Web App",
+      description:
+        "Access video summaries directly from our easy-to-use web app without installing any extensions.",
+      icon: <IconDeviceDesktop size={48} />,
+    },
+    {
       title: "Free account",
       description:
         "Get started with a free account and enjoy access to basic features without any cost.",
-      icon: <IconLockOpen size={48} />,
+      icon: <IconUser size={48} />,
     },
     {
-      title: "Private",
+      title: "Powered by ChatGPT and GPT-3 AI",
       description:
-        "We value your privacy and ensure that your data is safe and secure.",
-      icon: <IconLock size={48} />,
+        "Experience cutting-edge AI technology that delivers accurate and concise video summaries.",
+      icon: <IconBrain size={48} />,
     },
     {
       title: "Summaries are cached by our API",
@@ -146,7 +146,7 @@ const LandingPage: React.FC = () => {
                 </div>
               ))}
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col">
                 <h2>Download Now</h2>
                 <a
@@ -166,7 +166,7 @@ const LandingPage: React.FC = () => {
                   Get it on Firefox
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </main>
       </div>
