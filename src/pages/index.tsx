@@ -12,6 +12,7 @@ import {
   IconRobot,
   IconDatabase,
 } from "@tabler/icons-react";
+import IconBrandChatGPT from "../components/IconBrandChatGPT";
 // import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 // import styles from "./index.module.css";
@@ -62,6 +63,12 @@ const LandingPage: React.FC = () => {
       icon: <IconRobot size={48} />,
     },
     {
+      title: "ChatGPT Plugin",
+      description:
+        "Summarize YouTube right within ChatGPT. No Summarizer account required!",
+      icon: <IconBrandChatGPT size={48} />,
+    },
+    {
       title: "Extensions for Chrome and Firefox",
       description: "Summaries right on YouTube with our browser extensions.",
       icon: (
@@ -82,12 +89,6 @@ const LandingPage: React.FC = () => {
       description:
         "Get started with a free account and enjoy access to basic features without any cost.",
       icon: <IconUser size={48} />,
-    },
-    {
-      title: "Powered by ChatGPT and GPT-3 AI",
-      description:
-        "Experience cutting-edge AI technology that delivers accurate and concise video summaries.",
-      icon: <IconBrain size={48} />,
     },
     {
       title: "Summaries are cached by our API",
