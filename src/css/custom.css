@@ -7,15 +7,15 @@
 /* You can override the default Infima variables here. */
 :root {
   --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-      "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol", "Noto Color Emoji";
-  --ifm-color-primary: #D81B60;
-  --ifm-color-primary-dark: #C51958;
-  --ifm-color-primary-darker: #B21850;
-  --ifm-color-primary-darkest: #8F123C;
-  --ifm-color-primary-light: #DB1C67;
-  --ifm-color-primary-lighter: #DF1E6E;
-  --ifm-color-primary-lightest: #E32477;
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --ifm-color-primary: #FF2DFF;
+  --ifm-color-primary-dark: #FF0DFF;
+  --ifm-color-primary-darker: #F300F5;
+  --ifm-color-primary-darkest: #DB00DD;
+  --ifm-color-primary-light: #FF51FF;
+  --ifm-color-primary-lighter: #FF79FF;
+  --ifm-color-primary-lightest: #FFA5FF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -23,14 +23,14 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-      "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol", "Noto Color Emoji";
-  --ifm-color-primary: #F04A82;
-  --ifm-color-primary-dark: #E94679;
-  --ifm-color-primary-darker: #E34270;
-  --ifm-color-primary-darkest: #D6365F;
-  --ifm-color-primary-light: #F54E8A;
-  --ifm-color-primary-lighter: #F85292;
-  --ifm-color-primary-lightest: #FA6AA3;
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --ifm-color-primary: #FF2DFF;
+  --ifm-color-primary-dark: #FF0DFF;
+  --ifm-color-primary-darker: #F300F5;
+  --ifm-color-primary-darkest: #DB00DD;
+  --ifm-color-primary-light: #FF51FF;
+  --ifm-color-primary-lighter: #FF79FF;
+  --ifm-color-primary-lightest: #FFA5FF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
