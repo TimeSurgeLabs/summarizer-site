@@ -105,8 +105,8 @@ const LandingPage: React.FC = () => {
           <div className="container">
             <h1 className="hero-title">Summarize</h1>
             <p className="hero-subtitle">
-              Effortlessly summarize YouTube videos with our powerful browser
-              extension and web app!
+              Effortlessly summarize YouTube videos with our powerful Discord
+              bot, Telegram Bot, and web app!
             </p>
             <div className="hero-cta">
               <a
