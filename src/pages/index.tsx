@@ -11,8 +11,8 @@ import {
   IconUser,
   IconRobot,
   IconDatabase,
+  IconBrandOpenai,
 } from "@tabler/icons-react";
-import IconBrandChatGPT from "../components/IconBrandChatGPT";
 // import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 // import styles from "./index.module.css";
@@ -66,11 +66,11 @@ const LandingPage: React.FC = () => {
       title: "ChatGPT Plugin",
       description:
         "Summarize YouTube right within ChatGPT. No Summarizer account required!",
-      icon: <IconBrandChatGPT size={48} />,
+      icon: <IconBrandOpenai size={48} />,
     },
     {
-      title: "Extensions for Chrome and Firefox",
-      description: "Summaries right on YouTube with our browser extensions.",
+      title: "Browser Extensions (Soon™️)",
+      description: "Summaries right on YouTube in Chrome and Firefox.",
       icon: (
         <>
           <IconBrandChrome size={48} className="margin-right--sm" />
